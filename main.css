@@ -13,6 +13,7 @@ h1, h2 {
 }
 a {
     color:#1196AD;
+    line-height: 2em;
 }
 /* ------HEADER-------*/
 header {
