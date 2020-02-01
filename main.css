@@ -11,10 +11,16 @@ h1, h2 {
     font-family: 'Archivo Black', sans-serif;
     color: #1196AD;
 }
+a {
+    color:#1196AD;
+}
 /* ------HEADER-------*/
 header {
     max-width: 1200px;
    margin: 0 auto;
+}
+li .current-page {
+    color: #1196AD;
 }
 nav ul {
     display: flex;
@@ -85,16 +91,7 @@ main {
     color:#534E4D;
 }
 
-/*
-button:hover {
- background-color: #1196AD;
- border: 1px solid white;
- color: white;
- cursor: pointer;
-}
-button a:hover {
-    color: white;
-} */
+
 /*----------FOOTER -------*/
 footer {
     display: flex;
