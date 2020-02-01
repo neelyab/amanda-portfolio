@@ -131,7 +131,9 @@ min-height: 300px;
 background-color: darkgrey;
 }
 
-
+#quiz-app-screen {
+    width: 90%;
+}
 /*----------TABLET STYLES ------*/
 
 @media screen and (min-width: 768px) {
