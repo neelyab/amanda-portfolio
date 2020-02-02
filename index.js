@@ -7,10 +7,10 @@ $('li').hover(function (){
 }
 function hoverButton(){
     $('.email-me').hover(function(){
-        $(this).css('background-color', '#1196AD').css('border', 'solid 1px white').css('color', 'white');
+        $(this).addClass('js-email-me-hover');
     }, function(){
-        $(this).css('background-color', 'white').css('border','solid 1px black').css('color', '#534E4D')
-    })
+        $(this).removeClass('js-email-me-hover');
+});
 }
 
 function fadeInHello () {

@@ -15,6 +15,7 @@ a {
     color:#1196AD;
     line-height: 2em;
 }
+
 /* ------HEADER-------*/
 header {
     max-width: 1200px;
@@ -81,17 +82,24 @@ main {
 .email-me {
     display: block;
     margin: auto;
-    background-color: white;
-    height: 50px;
+    height: 60px;
     border-radius: 30px;
-    padding: 10px 20px;
-    border: 1px solid black;
+    padding: 10px 20px 20px 20px;
     font-size: 1.2em;
     margin-top: 20px;
     text-decoration: none;
-    color:#534E4D;
 }
+.email-me-default {
+    background-color: white;
+    border: 1px solid black;
+    color:#534E4D;
 
+}
+.js-email-me-hover {
+    background-color: #1196AD;
+    color: white;
+    border: 1px solid white;
+}
 
 /*----------FOOTER -------*/
 footer {
