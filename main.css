@@ -140,6 +140,9 @@ background-color: darkgrey;
 #quiz-app-screen {
     width: 90%;
 }
+#trail-running-app-screen {
+    width: 85%;
+}
 /*----------TABLET STYLES ------*/
 
 @media screen and (min-width: 768px) {
