@@ -137,7 +137,7 @@ min-height: 300px;
 background-color: darkgrey;
 }
 
-#quiz-app-screen {
+#quiz-app-screen, #study-app-screen {
     width: 90%;
 }
 #trail-running-app-screen {
@@ -209,14 +209,21 @@ background-color: darkgrey;
         margin-left: 50px;
 
     }
-    .about-container, .projects-page {
+    .about-container {
         display: flex;
         flex-direction: row;
+    }
+    .projects-page {
+        display: flex;
+        flex-direction: row wrap;
     }
     .hello-container {
         max-width: 60%;
     }
     .name {
         margin-right: 50%;
+    }
+    .projects-header {
+        display: none;
     }
 }
