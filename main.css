@@ -10,6 +10,8 @@ html, body {
 h1, h2 {
     font-family: 'Archivo Black', sans-serif;
     color: #1196AD;
+    padding: 10px 10px;
+    text-align: center;
 }
 a {
     color:#1196AD;
@@ -113,6 +115,14 @@ footer {
 }
 
 /*------ ABOUT PAGE ------*/
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about div {
+    margin: 0 auto;
+}
 .about p {
     max-width: 500px;
     font-size: 1.3em;
@@ -120,6 +130,10 @@ footer {
 }
 .about h2 {
     text-align: center;
+}
+.profile-photo {
+    max-height: 200px;
+    border-radius: 500%;
 }
 /* ----- PROJECT PAGE ------*/
 .projects {
